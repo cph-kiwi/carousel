@@ -1,9 +1,9 @@
 import React from "react";
-import "./card.css";
+import "./CardFive.css";
 import image1 from "../../images/image1.svg";
 import image2 from "../../images/image2.svg";
 
-function Card() {
+function CardFive() {
   return (
     <div className="card">
       <img className="speech-marks" src={image1} alt="Closing speech marks" />
@@ -23,4 +23,4 @@ function Card() {
   );
 }
 
-export default Card;
+export default CardFive;
