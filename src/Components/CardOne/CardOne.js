@@ -5,7 +5,7 @@ import image2 from "../../images/image2.svg";
 
 function CardOne() {
   return (
-    <div className="card">
+    <>
       <img className="speech-marks" src={image1} alt="Closing speech marks" />
       <h2 className="statement">
         This piece of software is{" "}
@@ -19,7 +19,7 @@ function CardOne() {
       <img className="image2" src={image2} alt="Mr Face emoji" />
       <span className="image2-title">Mr. Face</span>
       <span className="image2-subtext">Karma Guru @ Face Co&trade;</span>
-    </div>
+    </>
   );
 }
 
