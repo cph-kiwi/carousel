@@ -1,0 +1,41 @@
+.card {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  width: 70vw;
+}
+
+.speech-marks {
+  padding: 60px 0 0 0;
+}
+
+.statement {
+  padding: 40px 0 0 0;
+  line-height: 1.2;
+}
+
+.image2 {
+  padding: 60px 0 0 0;
+}
+
+.image2-title {
+  padding: 8px 0 0 0;
+  font-size: 16px;
+  font-style: bold;
+}
+
+.image2-subtext {
+  padding: 5px 0 0 0;
+  font-size: 16px;
+}
+
+.green-text {
+  color: #88ffed;
+}
+
+.pink-text {
+  color: #ff88ad;
+}
