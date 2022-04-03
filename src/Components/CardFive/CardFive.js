@@ -8,17 +8,17 @@ function CardFive() {
     <div className="card">
       <img className="speech-marks" src={image1} alt="Closing speech marks" />
       <h2 className="statement">
-        This piece of software is{" "}
-        <span className="green-text" style={{ fontStyle: "italic" }}>
-          the shit
-        </span>
-        ,
+        It has become appallingly obvious that our
         <br />
-        I've never tried anything like it.
+        technology has{" "}
+        <span className="green-text" style={{ fontStyle: "italic" }}>
+          exceeded our humanity
+        </span>
+        .
       </h2>
-      <img className="image2" src={image2} alt="Mr Face emoji" />
-      <span className="image2-title">Mr. Face</span>
-      <span className="image2-subtext">Karma Guru @ Face Co&trade;</span>
+      <img className="image10" src={image2} alt="Mr Face emoji" />
+      <span className="image10-title">Albert Einstein</span>
+      <span className="image10-subtext">Scientist</span>
     </div>
   );
 }

@@ -20,7 +20,7 @@ function Carousel() {
 
   useEffect(() => {
     const nextIndex = (currentCardIndex + 1) % cards.length;
-    const id = setTimeout(() => setCurrentCardIndex(nextIndex), 2000);
+    const id = setTimeout(() => setCurrentCardIndex(nextIndex), 3000);
     return () => clearTimeout(id);
   }, [currentCardIndex]);
 

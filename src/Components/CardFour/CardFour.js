@@ -8,18 +8,18 @@ function CardFour() {
     <div className="card">
       <img className="speech-marks" src={image3} alt="Closing speech marks" />
       <h2 className="statement">
-        An experience that makes us feel like we're
+        Computers themselves, and software yet to be
         <br />
-        covered in maple syrup -{" "}
-        <span className="pink-text">It's a good thing</span>.
+        developed, will revolutionize the{" "}
+        <span className="pink-text">way we learn</span>.
       </h2>
       <img
-        className="image4"
+        className="image8"
         src={image4}
         alt="A stack of pancakes with syrup and butter"
       />
-      <span className="image4-title">The whole team @</span>
-      <span className="image4-subtext">The Pancake Collective&trade;</span>
+      <span className="image8-title">Steve Jobs</span>
+      <span className="image8-subtext">Founder of Apple</span>
     </div>
   );
 }
