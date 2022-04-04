@@ -24,7 +24,11 @@ function Carousel({ cards }) {
         {cards.map((card, index) => {
           return (
             <button
-              className="progress-button"
+              className={
+                index === currentCardIndex
+                  ? "progress-button selected"
+                  : "progress-button"
+              }
               onClick={() => {
                 setCurrentCardIndex(index);
               }}

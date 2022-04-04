@@ -40,3 +40,7 @@
   margin: 0 2px;
   border: none;
 }
+
+.selected {
+  background-color: white;
+}
