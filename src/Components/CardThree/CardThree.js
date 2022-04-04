@@ -5,7 +5,7 @@ import image2 from "../../images/image2.svg";
 
 function CardThree() {
   return (
-    <div className="card">
+    <>
       <img className="speech-marks" src={image1} alt="Closing speech marks" />
       <h2 className="statement">
         Software is a great{" "}
@@ -18,7 +18,7 @@ function CardThree() {
       <img className="image6" src={image2} alt="Mr Face emoji" />
       <span className="image6-title">Bill Gates</span>
       <span className="image6-subtext">Formerly of Microsoft</span>
-    </div>
+    </>
   );
 }
 

@@ -5,7 +5,7 @@ import image4 from "../../images/image4.svg";
 
 function CardTwo() {
   return (
-    <div className="card">
+    <>
       <img className="speech-marks" src={image3} alt="Closing speech marks" />
       <h2 className="statement">
         An experience that makes us feel like we're
@@ -20,7 +20,7 @@ function CardTwo() {
       />
       <span className="image4-title">The whole team @</span>
       <span className="image4-subtext">The Pancake Collective&trade;</span>
-    </div>
+    </>
   );
 }
 
