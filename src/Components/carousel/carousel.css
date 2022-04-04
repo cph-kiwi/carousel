@@ -1,9 +1,7 @@
 .carousel {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   overflow: hidden;
+  position: relative;
 }
 
 .card-container {
@@ -24,4 +22,21 @@
   flex-shrink: 0;
   height: 500px;
   width: 100%;
+}
+
+.progress-bar {
+  display: flex;
+  width: 80%;
+  position: absolute;
+  bottom: 60px;
+  left: 10%;
+}
+
+.progress-button {
+  display: block;
+  flex: 1;
+  background-color: #6e7986;
+  height: 4px;
+  margin: 0 2px;
+  border: none;
 }

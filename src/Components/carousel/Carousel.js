@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Carousel.css";
 
-import ProgressBar from "../ProgressBar/ProgressBar";
-
 function Carousel({ cards }) {
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
 
@@ -10,7 +8,7 @@ function Carousel({ cards }) {
     const nextIndex = (currentCardIndex + 1) % cards.length;
     const id = setTimeout(() => setCurrentCardIndex(nextIndex), 3000);
     return () => clearTimeout(id);
-  }, [currentCardIndex]);
+  }, [currentCardIndex, cards.length]);
 
   return (
     <div className="carousel">
@@ -22,7 +20,18 @@ function Carousel({ cards }) {
           return <div className="card">{card}</div>;
         })}
       </div>
-      <ProgressBar />
+      <div className="progress-bar">
+        {cards.map((card, index) => {
+          return (
+            <button
+              className="progress-button"
+              onClick={() => {
+                setCurrentCardIndex(index);
+              }}
+            ></button>
+          );
+        })}
+      </div>
     </div>
   );
 }
