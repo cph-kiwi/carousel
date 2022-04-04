@@ -32,13 +32,19 @@
   left: 10%;
 }
 
-.progress-button {
+.outer-button {
   display: block;
   flex: 1;
-  background-color: #6e7986;
-  height: 4px;
+  height: 24px;
   margin: 0 2px;
   border: none;
+  background-color: transparent;
+}
+
+.progress-button {
+  background-color: #6e7986;
+  height: 4px;
+  width: 100%;
 }
 
 .selected {
